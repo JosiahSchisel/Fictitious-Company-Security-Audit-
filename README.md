@@ -17,7 +17,7 @@
 - Chrome Browser
 - Microsoft Word </b> 
 
-<h2>Audit:</h2>
+<h2>Audit</h2>
 
 <p align="center">
 <b>Botium Toys Internal Audit </b><br>(Fictitious Company Auditing Exercise)</br>
@@ -78,69 +78,38 @@ Control best practices: The first of the five functions of the NIST CSF are Iden
 •	There is no centralized password management system that enforces the password policy minimum requirements which affects productivity when employees submit a ticket to the IT department to recover or reset a password.<br />
 •	Legacy systems are monitored and maintained but there is no regular schedule in place for these tasks and intervention methods are unclear.<br />
 •	Physical locations which include Botium Toys’ main offices, storefront, and warehouse have sufficient locks, an up-to-date CCTV surveillance system, and a functioning fire detection and prevention system.</p>
+<br />
 
-<p align="center">
-<b>Administrative Controls </b>
+
+<p align="left">
+<b>Administrative Controls: </b>
+ <p align="left"> 
+<img src="https://imgur.com/1kQ4Dd1.png" height="80%" width="80%" alt=""/>
   
-Control Name	Type & Explanation	Implementation Currently Yes/No	Priority
-Least Privilege	Preventative.
-Reduce risk as each staff member will only have access to assets/data needed to perform the job.	No. Currently, all employees have access to data. Privileges need to be restricted.	High
-Disaster Recovery Plans	Corrective.
-To ensure business systems continue during an incidental event with limited loss of productivity and downtime to system components including computer rooms, hardware, internal wireless network, email, and data.	No. Currently, no disaster recovery plan is in place. These need to be implemented to protect business downtime during an event and to back up critical data.	Medium
-Password Policies	Preventative.
-Establish password strength rules to improve security and reduce account compromise.	No. Currently, password policies are minimal and do not follow current minimum password complexity requirements. Improving password policy will prevent a threat actor from easily accessing important data.	High
-Access Control Policies	Preventative.
-Increase confidentiality and integrity of data.	No. Currently, there is no access control policy in place as all employees have access to internally stored data and may access customer SPII/PII. 	High
-Account Management Policies	Preventative.
-Reduce attack surface and limit impact from disgruntled and former employees.	No. Currently, the account management policy in place is minimal and needs updating to protect the internal data.	High
-Separation of Duties	Preventative.
-Ensure no one person has excessive access and that they can abuse the system for personal gain.	No. There is no current policy in place to separate payroll from signed checks as the CEO runs day-to-day operations, does payroll, and signs checks.	High
-Technical Controls
-Control Name	Type & Explanation	Implementation Currently Yes/No	Priority
-Firewall	Preventative.
-Firewalls are already in place to filter malicious traffic from entering the internal network.	Yes. The current firewall is adequate to block traffic based on a set of defined security rules.	NA
-Intrusion Detection System	Detective.
-Assist the IT team in identifying possible intrusions quickly.	No. The IT department needs an IDS system to identify threat actor intrusions.	High
-Encryption	Deterrent. 
-Improves confidential information security.	No. There is no current encryption of internally stored data to ensure the confidentiality of customers' credit card information.	High
-Backups	Corrective.
-Supports productivity in the case of an event. Aligns with the disaster recovery plan.	No. The company does not have any backup in place for critical data in case of an event.	Medium
-Password Management System	Corrective.
-Password recovery, reset, and lockout notifications.	No. There is no centralized password management system in place to enforce the company’s password policy. This can affect productivity, as when an employee submits a ticket to the IT department to recover a password. I would recommend the implementation of MFA also for an extra security layer.	High
-Antivirus Software	Corrective.
-Detect and quarantine known threats.	Yes. There is antivirus software installed and monitored by the IT department.	NA
-Manual Monitoring, Maintenance, and Intervention	Preventative and corrective.
-Required for legacy systems to identify and mitigate potential threats, risks, and vulnerabilities.	No. There is a legacy system in place to monitor and maintain but no regular schedule and method in place for these interventions.	High
+<p align="left">
+<b>Technical Controls: </b>
+ <p align="left"> 
+<img src="https://imgur.com/8Su4vKX.png" height="80%" width="80%" alt=""/>
 
-Physical Controls
-Control Name	Type & Explanation	Implementation Yes/No	Priority
-Closed-Circuit
-Television (CCTV)
-Surveillance	Preventative & Detective. 
-Reduce the risk of certain events and
-can be used after the event for
-investigation.	Yes. Sufficient CCTV surveillance at the physical locations is adequate.	NA
-Locks	Preventative. 
-Physical and digital assets are more secure.	Yes. The company’s physical location has adequate locks.	NA
-Fire Detection and
-Prevention (fire
-alarm, sprinkler
-system, etc.)	Detective & Preventative
-Detect fire in the toy store’s physical location to prevent damage to
-inventory and hardware.	Yes. Sufficient and functioning fire detection and prevention system is in place.	NA
+<p align="left">
+<b>Physical Controls: </b>
+ <p align="left"> 
+<img src="https://imgur.com/qDFsP2z.png" height="80%" width="80%" alt=""/>
 
-Payment Card Industry Data Security Standard (PCI DSS)
-Best Practice	Explanation	Implementation Yes/No	Priority
-Build and Maintain a Secure Network.	Maintain a firewall and change default passwords and settings.	Yes & No. There is adequate firewall protection in place, but password policy and implementation are inadequate.	High
-Protect Cardholder Data.	Encryption of cardholder data during transit and at rest is needed to protect SPII/PII.	No. Credit card information is not encrypted, and all employees have access to SPII/PII.	High
-Maintain a Vulnerability Management Program.	Use and regularly update anti-virus software.	Yes. The company has adequate anti-virus software installed and monitored by IT department.	NA
-Implement Strong Access Control Measures	Restriction of cardholder data to authorized users. User accounts should be assigned to real individuals and avoidance of shared accounts should be implemented.	No. All employees have access to the company’s internal data.	High
 
-General Data Protection Regulation (GDPR)
-Best Practice	Explanation	Implementation Yes/No	Priority
-Data Minimization.	Only collect and process data that is necessary for the intended purpose. Data that is no longer necessary should be deleted.	No. No policy and implementation is in place to restrict only necessary data collection and to delete data once it is no longer necessary to keep.	High
-Confidentiality to protect sensitive data.	No current encryption protocol is in place which would improve the confidentiality of SPII/PII.	No. Credit card information is not encrypted, and all employees have access to SPII/PII.	High
-Data Breach Reporting. 	A data breach must be reported to authorities and individuals within 72 hours.	Yes. The company has a plan in place to notify E.U. customers in case of a data breach.	NA
+
+
+<p align="left">
+<b>Payment Card Industry Data Security Standard (PCI DSS): </b>
+ <p align="left"> 
+<img src="https://imgur.com/pJwAK4R.png" height="80%" width="80%" alt=""/>
+
+
+
+<p align="left">
+<b>General Data Protection Regulation (GDPR): </b>
+ <p align="left"> 
+<img src="https://imgur.com/WL8fT87.png" height="80%" width="80%" alt=""/>
 
 System and Organizations Controls (SOC type 1, SOC type 2)
 Best Practice	Explanation	Implementation Yes/No	Priority
