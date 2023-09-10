@@ -111,12 +111,11 @@ Control best practices: The first of the five functions of the NIST CSF are Iden
  <p align="left"> 
 <img src="https://imgur.com/WL8fT87.png" height="80%" width="80%" alt=""/>
 
-System and Organizations Controls (SOC type 1, SOC type 2)
-Best Practice	Explanation	Implementation Yes/No	Priority
-Processing Integrity	The company systems operate in a way as intended.	Yes. Integrity is in place to ensure complete, accurate, and validated data.	NA
-Confidentiality	Protect confidential information by limiting who can access it, how it is stored, and how it is used.	No. The company does not have a current encryption tool to protect PII/SPII and the data is available to all employees without limitation of access.	High
 
-Security.	Protect information from vulnerabilities and unauthorized access.	No. Controls of least privilege and separation of duties are not in place.	High
+<p align="left">
+<b>System and Organizations Controls (SOC type 1, SOC type 2): </b>
+ <p align="left"> 
+<img src="https://imgur.com/YfDMNLU.png" height="80%" width="80%" alt=""/>
 
 <b>Recommendations: </b>Multiple controls need to be implemented to improve Botium Toys’ security posture. To address the gaps the following is most relevant to improve security posture:
 <p></p>
