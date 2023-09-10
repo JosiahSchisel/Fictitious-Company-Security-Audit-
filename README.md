@@ -86,9 +86,9 @@ Control Name	Type & Explanation	Implementation Currently Yes/No	Priority
 Least Privilege	Preventative.
 Reduce risk as each staff member will only have access to assets/data needed to perform the job.	No. Currently, all employees have access to data. Privileges need to be restricted.	High
 Disaster Recovery Plans	Corrective.
-To ensure business systems continue during an incidental event with limited loss of productivity and downtime to system components including computer rooms, hardware, internal wireless network, email, and data.	No. Currently no disaster recovery plan is in place. These need to be implemented to protect business downtime during an event and to backup critical data.	Medium
+To ensure business systems continue during an incidental event with limited loss of productivity and downtime to system components including computer rooms, hardware, internal wireless network, email, and data.	No. Currently, no disaster recovery plan is in place. These need to be implemented to protect business downtime during an event and to back up critical data.	Medium
 Password Policies	Preventative.
-Establish password strength rules to improve security and reduce account compromise.	No. Currently, password policies are minimal and do not follow current minimum password complexity requirements. Improving password policy will prevent a threat actor to easily access important data.	High
+Establish password strength rules to improve security and reduce account compromise.	No. Currently, password policies are minimal and do not follow current minimum password complexity requirements. Improving password policy will prevent a threat actor from easily accessing important data.	High
 Access Control Policies	Preventative.
 Increase confidentiality and integrity of data.	No. Currently, there is no access control policy in place as all employees have access to internally stored data and may access customer SPII/PII. 	High
 Account Management Policies	Preventative.
@@ -106,7 +106,7 @@ Improves confidential information security.	No. There is no current encryption o
 Backups	Corrective.
 Supports productivity in the case of an event. Aligns with the disaster recovery plan.	No. The company does not have any backup in place for critical data in case of an event.	Medium
 Password Management System	Corrective.
-Password recovery, reset, and lockout notifications.	No. There is no centralized password management system in place to enforce the company’s password policy. This can affect productivity, as when an employee submits a ticket to the IT department to recover a password. I would recommend implementation of MFA also for extra security layer.	High
+Password recovery, reset, and lockout notifications.	No. There is no centralized password management system in place to enforce the company’s password policy. This can affect productivity, as when an employee submits a ticket to the IT department to recover a password. I would recommend the implementation of MFA also for an extra security layer.	High
 Antivirus Software	Corrective.
 Detect and quarantine known threats.	Yes. There is antivirus software installed and monitored by the IT department.	NA
 Manual Monitoring, Maintenance, and Intervention	Preventative and corrective.
@@ -140,7 +140,7 @@ General Data Protection Regulation (GDPR)
 Best Practice	Explanation	Implementation Yes/No	Priority
 Data Minimization.	Only collect and process data that is necessary for the intended purpose. Data that is no longer necessary should be deleted.	No. No policy and implementation is in place to restrict only necessary data collection and to delete data once it is no longer necessary to keep.	High
 Confidentiality to protect sensitive data.	No current encryption protocol is in place which would improve the confidentiality of SPII/PII.	No. Credit card information is not encrypted, and all employees have access to SPII/PII.	High
-Data Breach Reporting. 	A data breach must be reported to authorities and individuals within 72 hours.	Yes. The company has a plan in place to notify E.U. customers in case of data breach.	NA
+Data Breach Reporting. 	A data breach must be reported to authorities and individuals within 72 hours.	Yes. The company has a plan in place to notify E.U. customers in case of a data breach.	NA
 
 System and Organizations Controls (SOC type 1, SOC type 2)
 Best Practice	Explanation	Implementation Yes/No	Priority
@@ -149,34 +149,21 @@ Confidentiality	Protect confidential information by limiting who can access it, 
 
 Security.	Protect information from vulnerabilities and unauthorized access.	No. Controls of least privilege and separation of duties are not in place.	High
 
-Recommendations: Multiple controls need to be implemented to improve Botium Toys’ security posture. This includes the following: least privilege, disaster recovery plan and backup, access control policy, separation of duties, an IDS, improved legacy system monitoring and scheduling, encryption of SPII/PII, and improved password management system.
-
-To address the gaps the following is most relevant to improve security posture.
-
-•	Implement the principle of least privilege across the company. Integration of Role-Based Access Control (RBAC) in which permissions are associated with specific roles and responsibilities.
-
-•	Develop a disaster recovery plan which outlines procedures for data recovery in the case of an event. Also, automate regular backups of important data.
-
-•	Establish an access control policy that defines who and under what circumstances can access data. Communicate the new strategy to all employees.
-
-•	Implement a separation of duty policy to prevent a single user from having excessive control.
-
-•	Deploy an intrusion detection system (IDS) that monitors network traffic and can alert the IT team to suspicious activities.
-
-•	Create a schedule for regular legacy system monitoring and updates to keep it secure and functioning.
-
-•	An encryption tool should be implemented to protect sensitive personal identifiable information and personally identifiable information during transit and at rest.
-
-•	Implement an improved password management system through policy updates, and higher-level password complexity and expiration. Encourage multi-factor authentication to provide an extra layer of protection.
-
-•	Conduct regular security training for all employees to improve best practices and encourage prompt reporting of suspicious activities.
+<b>Recommendations: </b>Multiple controls need to be implemented to improve Botium Toys’ security posture. This includes the following: least privilege, disaster recovery plan and backup, access control policy, separation of duties, an IDS, improved legacy system monitoring and scheduling, encryption of SPII/PII, and improved password management system. To address the gaps the following is most relevant to improve security posture:
+<p></p>
+•	Implement the principle of least privilege across the company. Integration of Role-Based Access Control (RBAC) in which permissions are associated with specific roles and responsibilities.  <br/>
+•	Develop a disaster recovery plan which outlines procedures for data recovery in the case of an event. Also, automate regular backups of important data. <br/>
+•	Establish an access control policy that defines who and under what circumstances can access data. Communicate the new strategy to all employees. <br/>
+•	Implement a separation of duty policy to prevent a single user from having excessive control. <br/>
+•	Deploy an intrusion detection system (IDS) that monitors network traffic and can alert the IT team to suspicious activities. <br/>
+•	Create a schedule for regular legacy system monitoring and updates to keep it secure and functioning. <br/>
+•	An encryption tool should be implemented to protect sensitive personal identifiable information and personally identifiable  information during transit and at rest.  <br/>
+•	Implement an improved password management system through policy updates, higher-level password complexity and expiration, and multi-factor authentication. <br/>
+•	Conduct regular security training for all employees to improve best practices and encourage prompt reporting of suspicious activities. <br/>
+</p>
 
 
-
- <br/>
-  
-<img src="https://imgur.com/zJKQTXa.png" height="80%" width="80%" alt=""/>
-<br />
+ 
   
 
 
