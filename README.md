@@ -1,4 +1,4 @@
-# Fictitious-Company-Security-Audit
+# Fictitious Company Security Audit
 
 
 <h1>Practice project security audit of a fictitious company for the Google Cybersecurity Certificate on Coursera.</h1>
