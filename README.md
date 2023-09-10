@@ -118,17 +118,18 @@ Control best practices: The first of the five functions of the NIST CSF are Iden
  <p align="left"> 
 <img src="https://imgur.com/YfDMNLU.png" height="80%" width="80%" alt=""/>
 
-<b>Recommendations: </b>Multiple controls need to be implemented to improve Botium Toys’ security posture. To address the gaps the following is most relevant to improve security posture:
-<p></p><ul>
-  <li>Implement the principle of least privilege across the company. Integration of Role-Based Access Control (RBAC) in which permissions are associated with specific roles and responsibilities.  </li>
-  <li>Develop a disaster recovery plan which outlines procedures for data recovery in the case of an event. Also, automate regular backups of important data. </li>
-  <li>Establish an access control policy that defines who and under what circumstances can access data. Communicate the new strategy to all employees. </li>
-  <li>Implement a separation of duty policy to prevent a single user from having excessive control. </li>
-  <li>Deploy an intrusion detection system (IDS) that monitors network traffic and can alert the IT team to suspicious activities. </li>
-  <li>Create a schedule for regular legacy system monitoring and updates to keep it secure and functioning. </li>
-  <li>An encryption tool should be implemented to protect sensitive personal identifiable information and personally identifiable  information during transit and at rest. </li>
-  <li>Implement an improved password management system through policy updates, higher-level password complexity and expiration, and multi-factor authentication. </li>
-  <li>Conduct regular security training for all employees to improve best practices and encourage prompt reporting of suspicious activities. </li>
+
+<p><strong>Recommendations:</strong></p>
+<ul>
+  <li>Implement the principle of least privilege across the company. Integration of Role-Based Access Control (RBAC) in which permissions are associated with specific roles and responsibilities.</li>
+  <li>Develop a disaster recovery plan that outlines procedures for data recovery in the case of an event. Also, automate regular backups of important data.</li>
+  <li>Establish an access control policy that defines who can access data and under what circumstances. Communicate the new strategy to all employees.</li>
+  <li>Implement a separation of duty policy to prevent a single user from having excessive control.</li>
+  <li>Deploy an intrusion detection system (IDS) that monitors network traffic and can alert the IT team to suspicious activities.</li>
+  <li>Create a schedule for regular legacy system monitoring and updates to keep it secure and functioning.</li>
+  <li>An encryption tool should be implemented to protect sensitive personally identifiable information (PII) during transit and at rest.</li>
+  <li>Implement an improved password management system through policy updates, higher-level password complexity and expiration, and multi-factor authentication.</li>
+  <li>Conduct regular security training for all employees to improve best practices and encourage prompt reporting of suspicious activities.</li>
 </ul>
 
 
