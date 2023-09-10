@@ -20,7 +20,7 @@
 <h2>Audit:</h2>
 
 <p align="center">
-<b>Botium Toys Internal Audit (Fictitious Company Auditing Exercise)</b>
+<b>Botium Toys Internal Audit </b><br>(Fictitious Company Auditing Exercise)</br>
 
 <p align="left">
   
@@ -149,7 +149,7 @@ Confidentiality	Protect confidential information by limiting who can access it, 
 
 Security.	Protect information from vulnerabilities and unauthorized access.	No. Controls of least privilege and separation of duties are not in place.	High
 
-<b>Recommendations: </b>Multiple controls need to be implemented to improve Botium Toys’ security posture. This includes the following: least privilege, disaster recovery plan and backup, access control policy, separation of duties, an IDS, improved legacy system monitoring and scheduling, encryption of SPII/PII, and improved password management system. To address the gaps the following is most relevant to improve security posture:
+<b>Recommendations: </b>Multiple controls need to be implemented to improve Botium Toys’ security posture. To address the gaps the following is most relevant to improve security posture:
 <p></p>
 •	Implement the principle of least privilege across the company. Integration of Role-Based Access Control (RBAC) in which permissions are associated with specific roles and responsibilities.  <br/>
 •	Develop a disaster recovery plan which outlines procedures for data recovery in the case of an event. Also, automate regular backups of important data. <br/>
